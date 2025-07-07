@@ -69798,7 +69798,8 @@ YH(a){var s,r,q=null
 $.W.toString
 s=A.co($.ar().guR())
 r=(s.gvw()?A.cz(q,q,"/",q,s.gqQ(),q):s).j(0)
-return r}}
+if(r==="/")return a
+else return r}}
 A.X7.prototype={
 $2(a,b){return new A.kF(this.a,b,null)},
 $S:461}
@@ -71482,7 +71483,7 @@ $1(a){return A.l(a.k(0,1))+".<"+A.l(a.k(0,1))+"_async_body>"},
 $S:169}
 A.ag6.prototype={
 $1(a){var s=null,r=A.b([A.ale(new A.ag5(),"/")],t.yo)
-return A.avz(!1,s,s,s,s,s,s,s,s,!1,s,!0,s,!1,new A.K1(new A.a3P(r,A.aDA(),5)))},
+return A.avz(!1,s,s,s,s,"/",s,s,s,!1,s,!0,s,!1,new A.K1(new A.a3P(r,A.aDA(),5)))},
 $S:489}
 A.ag5.prototype={
 $2(a,b){return new A.px(null)},
